@@ -1,0 +1,18 @@
+.card-shadow{
+    box-shadow: 5px 8px 0px #444;
+    .heading{
+        position: absolute;
+        top: 70%;
+        right: 0;
+        font-size: 14px;
+        letter-spacing: 1px;
+        background-color: #222;
+        width: 70%;
+        cursor: pointer;
+        opacity: .7;
+        &:hover{
+            opacity: 1;
+            transition: all .5s;
+        }
+    }
+}
